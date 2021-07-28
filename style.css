@@ -76,6 +76,7 @@ img {
 }
 .fab {
   color: #1af3b2;
+  padding-left: 10px;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
