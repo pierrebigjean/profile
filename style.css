@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400&family=Roboto:wght@400;700;900&display=swap');
+body {
+  background: #f9fafd;
+  color: #262A3E;
+  font-family: 'Karla', serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+p {
+  width: 200px
+}
+h1, h2, h3, a {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2, a {
+  color: #96A1F0;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 5.5%);
+  border-radius: 4px;
+  margin: 20px auto;
+}
+a:hover {
+  color: #000000
+}
+#lewagon {
+  background-color: #1af3b2;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 240px;
+  border-radius: 4px;
+  padding: 8px 14px;
+  margin-bottom: 20px;
+}
+#lewagon:hover {
+  background-color: #4536b8;
+}
+img {
+  height: 100px;
+  border-radius: 50px;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap
+}
+.card {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+}
+.list-inline li {
+  padding: 10px;
+  display: inline;
+}
+.list-inline {
+  padding-left: 1px;
+}
+.fab {
+  color: #1af3b2;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
