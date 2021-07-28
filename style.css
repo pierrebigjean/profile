@@ -7,7 +7,8 @@ body {
   font-weight: 400;
 }
 p {
-  width: 200px
+  width: 200px;
+  padding: inherit;
 }
 h1, h2, h3, a {
   font-family: 'Roboto', sans-serif;
@@ -27,13 +28,13 @@ h2, a {
 a {
   text-decoration: none;
   background-color: white;
-  padding: 10px;
-  box-shadow: 0px 4px 20px rgb(0 0 0 / 5.5%);
+  padding: inherit;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 3%);
   border-radius: 4px;
   margin: 20px auto;
 }
 a:hover {
-  color: #000000
+  background-color: #dee1f3
 }
 #lewagon {
   background-color: #1af3b2;
@@ -49,34 +50,50 @@ a:hover {
 #lewagon:hover {
   background-color: #4536b8;
 }
-img {
+#paragraph {
+  height: 220px;
+}
+#avatar {
   height: 100px;
   border-radius: 50px;
 }
 .container {
-  width: 600px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 .card {
   background-color: white;
   padding: 30px;
   box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
   border-radius: 4px;
-  margin: 20px auto;
+  margin: 20px;
   text-align: center;
+  height: fit-content;
 }
 .list-inline li {
   padding: 10px;
+  padding-left: 12px;
   display: inline;
 }
 .list-inline {
-  padding-left: 1px;
+  padding-left: 0px;
 }
 .fab {
   color: #1af3b2;
-  padding-left: 10px;
+}
+.painting {
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  width: 250px;
+  height: fit-content;
+}
+.source {
+  width: -webkit-fill-available;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
